@@ -1,0 +1,10 @@
+# dshmarket submission entry for dsh-mesh-waker.
+#
+# The plugin lives in the monorepo at plugins/mesh-waker/ (its package.json declares
+# dsh.bundle.patch), which the checker accepts for monorepos.
+url: https://github.com/kaniol-lck/dsh-mesh
+name: dsh-mesh-waker
+category: identity
+description:
+  en: "Client for a self-hosted LAN agent hub: turns a signed, content-free wake ping from dsh-mesh into a real session turn, with an inbox card in the right sidebar, per-conversation history cache and a settings page. The hub itself runs from the same repository (hub/, Docker) and speaks MCP + REST, so non-DSH agents can join too."
+  zh: "自建局域网 agent 中枢的客户端：把 dsh-mesh 发来的签名唤醒 ping 变成真正的会话回合，右栏带收件箱卡片、按会话的本地历史缓存和设置页。中枢本体同仓库（hub/，Docker），同时提供 MCP 与 REST，非 DSH 的 agent 也能接入。"
